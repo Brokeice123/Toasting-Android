@@ -26,6 +26,7 @@ btn_sub = findViewById(R.id.btnsubmit)
 
         var userinput = user_edt.text.toString().trim()
         Toast.makeText(this, userinput, Toast.LENGTH_SHORT).show()
+        displayinfo.text = userinput.toString()
 
         //Toast.makeText(this, "Erling Haaland", Toast.LENGTH_SHORT).show()
     }
